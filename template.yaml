@@ -183,7 +183,7 @@ Parameters:
     Type: String
     Description: |
       [optional] Google Workspace group filter query parameter, example: 'name:Admin* email:aws-*', see: https://developers.google.com/admin-sdk/directory/v1/guides/search-groups
-    Default: 'name:AWS*'
+    Default: ""
     AllowedPattern: '(?!.*\s)|(name|Name|NAME)(:([a-zA-Z0-9]{1,64})\*)|(name|Name|NAME)(=([a-zA-Z0-9 ]{1,64}))|(email|Email|EMAIL)(:([a-zA-Z0-9.-_]{1,64})\*)|(email|Email|EMAIL)(=([a-zA-Z0-9.-_]{1,64})@([a-zA-Z0-9.-]{5,260}))'
 
   IgnoreGroups:
